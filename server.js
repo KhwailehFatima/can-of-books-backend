@@ -7,7 +7,7 @@ const { default: mongoose } = require('mongoose');
  const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 4000;
 
 app.get('/test', handleTest)
 app.get('/books', handleGetBooks);
